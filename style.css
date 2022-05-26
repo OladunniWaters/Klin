@@ -1,0 +1,759 @@
+body{
+    background-image: linear-gradient(#EAF2FF,
+#EDFBFF)
+}
+
+/*-- Navbar --*/
+ .navbar{
+     background: white;
+ }
+
+
+/*-- header --*/
+.home-header-text{
+    text-align: center;
+}
+
+.home-header-text p{
+    font-size: 20px;
+}
+
+#header-left-col{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+   /* background: rgba(255, 255, 255, .7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+}
+
+#header-left-col h5{
+    color: #356DF3;
+    font-size: 20px;
+}
+
+#header-left-col p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#header-right-col{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+  /*  background: rgba(255, 255, 255, .7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+}
+
+#header-right-col h5{
+    color: #356DF3;
+    font-size: 20px;
+}
+
+#header-right-col p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#header-left-col img{
+    width: 400px;
+}
+
+.arrow-icon-container{
+        display: flex;
+        justify-content: flex-end;
+}   
+
+.arrow-icon {
+    width: 60px;
+}
+
+#arrow{
+    color: #356DF3;
+}
+
+/*-- icon animation --*/
+#arrow{
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 5px;
+}
+
+@keyframes slide1{
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    
+    50%{
+        transform: translate(5px, 0)
+    }
+}
+
+
+/*--- services ---*/
+
+.services-header{
+    text-align: center;
+}
+
+#services-left-col{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+  /*  background: rgba(255, 255, 255, .7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+}
+
+#services-left-col h4{
+    color: #356DF3;
+    font-weight: bold;
+}
+
+#services-left-col p{
+    color: grey;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #356DF3;
+    color: white;
+    font-weight: bold;
+    transition: background, color 0.5s ease;
+}
+
+button:hover{
+    background: white;
+    color: #356DF3;
+    border: 1px solid #356DF3;
+}
+
+i{
+    color: white;
+}
+
+button:hover i{
+   color:  #356DF3;
+}
+
+/*-- icon animation --*/
+.arrow1{
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 5px;
+}
+
+@keyframes slide1{
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    
+    50%{
+        transform: translate(5px, 0)
+    }
+}
+
+#services-middle-col{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    /*  background: rgba(255, 255, 255, .7);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px); */
+}
+
+#services-middle-col h4 {
+    color: #356DF3;
+    font-weight: bold;
+}
+
+#services-middle-col p {
+    color: grey;
+}
+
+#services-right-col{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    /*  background: rgba(255, 255, 255, .7);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px); */
+}
+
+#services-right-col h4 {
+    color: #356DF3;
+    font-weight: bold;
+}
+
+#services-right-col p {
+    color: grey;
+}
+
+/*--- About ---*/
+
+#about-text h1{
+    text-align: center;
+}
+
+#about-text p{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+#about-col-text{
+    margin-top: 20px;
+}
+
+
+
+/*--- Scrolling section col*/
+.scrolling-col-bnb{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-polygon{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-avax{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-sol{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-near{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+/*-- Scrolling Section img --*/
+
+.scrolling-col-bnb img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.scrolling-col-polygon img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.scrolling-col-avax img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.scrolling-col-sol img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.scrolling-col-near img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+/*-- Scrolling Section text --*/
+
+.scrolling-col-bnb p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-polygon p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-avax p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-sol p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-near p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+/*--- Scrolling Animation ---*/
+
+.scrolling{
+    overflow: hidden;
+}
+
+ #col{
+     position: relative;
+    margin: 30px;
+    padding: 0;
+    transform: translateX(100%);
+    animation-name: scrolling;
+    animation-duration: 20s;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes scrolling{
+    0%{
+        transform: translateX(-40%);
+    }
+   
+   100%{
+        transform: translateX(-60%);
+    }
+    
+}
+
+
+/*-- Second Scrolling Section col --*/
+
+.scrolling-col-aave{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-algorand{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-band{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-filecoin{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-fantom{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+/*-- Second Scrolling Section img --*/
+
+.scrolling-col-aave img{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.scrolling-col-algorand img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.scrolling-col-band img{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.scrolling-col-filecoin img{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.scrolling-col-fantom img{
+    width: 40px;
+    margin-right: 20px;
+}
+
+/*-- Second Scrolling Section text --*/
+
+.scrolling-col-aave p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-algorand p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-band p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-filecoin p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-fantom p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+/*---Second Scrolling Animation ---*/
+
+.scrolling-2{
+    overflow: hidden;
+}
+
+ #col-2{
+     position: relative;
+    margin: 30px;
+    padding: 0;
+    transform: translateX(100%);
+    animation-name: scrolling-2;
+    animation-duration: 20s;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes scrolling-2{
+    0%{
+        transform: translateX(-60%);
+    }
+   
+   100%{
+        transform: translateX(-40%);
+    }
+    
+}
+
+
+
+/*-- Third Scrolling Section col --*/
+
+.scrolling-col-status{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-bat{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-curve{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-eth{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.scrolling-col-neo{
+    display: inline;
+    background: white;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+/*-- Third Scrolling Section img --*/
+
+.scrolling-col-status img{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.scrolling-col-bat img{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.scrolling-col-curve img{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.scrolling-col-eth img{
+    width: 20px;
+    margin-right: 20px;
+}
+
+.scrolling-col-neo img{
+    width: 60px;
+    margin-right: 20px;
+}
+
+/*-- Third Scrolling Section text --*/
+
+.scrolling-col-status p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-bat p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-curve p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-eth p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.scrolling-col-neo p{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+/*---Third Scrolling Animation ---*/
+
+.scrolling-3{
+    overflow: hidden;
+}
+
+ #col-3{
+     position: relative;
+    margin: 30px;
+    padding: 0;
+    transform: translateX(100%);
+    animation-name: scrolling-3;
+    animation-duration: 20s;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes scrolling-3{
+    0%{
+        transform: translateX(-40%);
+    }
+   
+   100%{
+        transform: translateX(-60%);
+    }
+    
+}
+
+
+
+/*--- testimonials ---*/
+
+.testimonials-header{
+    text-align: center;
+}
+
+#testimonials-left-col{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+  
+}
+
+
+#testimonials-left-col img{
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+}
+
+#testimonials-left-col h1{
+    color: #356DF3;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline;
+}
+
+#testimonials-left-col p{
+    margin-top: 20px;
+}
+
+
+#testimonials-middle-col{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+  
+}
+
+
+#testimonials-middle-col img{
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+}
+
+#testimonials-middle-col h1{
+    color: #356DF3;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline;
+}
+
+#testimonials-middle-col p{
+    margin-top: 20px;
+}
+
+
+#testimonials-right-col{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+  
+}
+
+
+#testimonials-right-col img{
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+}
+
+#testimonials-right-col h1{
+    color: #356DF3;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline;
+}
+
+#testimonials-right-col p{
+    margin-top: 20px;
+}
+
+
+/*-- footer --*/
+footer{
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+#footer-link p a{
+    color: grey;
+    text-decoration: none;
+}
+
+#footer-link a{
+    color: grey;
+    transition: color 0.5s
+}
+
+#footer-link a:hover{
+    color: #356DF3;
+}
