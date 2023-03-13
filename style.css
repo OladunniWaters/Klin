@@ -339,7 +339,7 @@ button:hover i{
      position: relative;
     margin: 30px;
     padding: 0;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     animation-name: scrolling;
     animation-duration: 20s;
     transition-timing-function: linear;
@@ -349,11 +349,11 @@ button:hover i{
 
 @keyframes scrolling{
     0%{
-        transform: translateX(-40%);
+        transform: translateX(-20%);
     }
    
    100%{
-        transform: translateX(-60%);
+        transform: translateX(20%);
     }
     
 }
@@ -481,7 +481,7 @@ button:hover i{
      position: relative;
     margin: 30px;
     padding: 0;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     animation-name: scrolling-2;
     animation-duration: 20s;
     transition-timing-function: linear;
@@ -491,11 +491,11 @@ button:hover i{
 
 @keyframes scrolling-2{
     0%{
-        transform: translateX(-60%);
+        transform: translateX(-20%);
     }
    
    100%{
-        transform: translateX(-40%);
+        transform: translateX(-20%);
     }
     
 }
@@ -624,7 +624,7 @@ button:hover i{
      position: relative;
     margin: 30px;
     padding: 0;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     animation-name: scrolling-3;
     animation-duration: 20s;
     transition-timing-function: linear;
@@ -634,11 +634,11 @@ button:hover i{
 
 @keyframes scrolling-3{
     0%{
-        transform: translateX(-40%);
+        transform: translateX(-20%);
     }
    
    100%{
-        transform: translateX(-60%);
+        transform: translateX(20%);
     }
     
 }
